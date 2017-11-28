@@ -1,0 +1,680 @@
+/* * * * * * * * * * * * * * * * * * * * *
+General
+* * * * * * * * * * * * * * * * * * * * */
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    border: 1px solid black;
+    margin-left: 0;
+    margin-top: 40px;
+    border-bottom: 1px solid #d6c9c9;
+    }
+.hamburger-container {
+    padding-left: 15px;
+    padding-top: 8px;
+    margin: 0;
+    color: #90949C;
+}
+
+/* * * * * * * * * * * * * * * * * * * * *
+Header
+* * * * * * * * * * * * * * * * * * * * */
+header {
+    height: 66px;
+    background: black;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+header .logo-container {
+    float: left;
+    margin-top: 9px;
+    }
+
+header span {
+    float: left;
+    margin-top: 14px;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #90949C;
+    letter-spacing: 2px;
+}
+
+header  i {
+    font-size: 6em;
+    float: left;
+    padding-left: 15px;
+    display: inline-block;
+    margin: 0;
+    color: #90949C;
+    }
+
+header nav {
+    float: right;
+    }
+
+header  a {
+    height: 66px;
+    padding: 24px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #90949C;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+header a:hover {
+    background: #333;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: auto 20px;
+}
+
+i#close-mobile-menu-button {
+    padding-top: 10px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * *
+Hero
+* * * * * * * * * * * * * * * * * * * * */
+.hero {
+    height: 450px;
+    margin-bottom: 0px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../images/branstorming.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero .content-container {
+    color: #d6c9c9;
+    text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+        #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    text-align: center;
+    padding-top: 115px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+    padding-top: 10px;
+
+    }
+
+.hero p {
+    font-size: 55px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 20px;
+}
+
+.call-to-action {
+    color: #d6c9c9;
+    background: #b90b0b;
+    padding: 10px 15px;
+    margin-top: : 20px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+ /** * * * * * * * * * * * * * * * * * * *
+Main
+* * * * * * * * * * * * * * * * * * * * **/
+
+main {
+    padding: 0;
+    height: fit-content;
+    text-align: center;
+    color: #d6c9c9;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../images/branstorming.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 45px;
+}
+
+.marketing-commerce, .project-management, .technical-writing, .business-relations {
+
+    background: transparent;
+    width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    margin-top: 40px;
+
+}
+
+.marketing-commerce, .project-management, .technical-writing, .business-relations p {
+    font-size: 15px;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: black 0px 0px 3px,black 0px 0px 1px,black 0px 0px 1px,
+        black 0px 0px 1px,black 0px 0px 1px,black 0px 0px 1px;
+    font-size: 18px;
+    color: #d6c9c9;
+    padding: 0px;
+
+}
+
+.box-1, .box-2, .box-3, .box-4 {
+  background: #425e75;
+  border: 1px solid #d6c9c9;
+  color: #d6c9c9;
+  margin: 0 auto;
+  width: 40%;
+  border-radius: 25px;
+  padding-top: 0px;
+  box-shadow: 0 0 10px 10px #d6c9c9;
+}
+
+.banner {
+    padding: 0px;
+    text-align: center;
+    height: 60px;
+}
+
+.banner p {
+  text-shadow: black 0px 0px 3px,black 0px 0px 1px,black 0px 0px 1px,
+      black 0px 0px 1px,black 0px 0px 1px,black 0px 0px 1px;
+  font-size: 25px;
+  color: #d6c9c9;
+  margin-top: 0px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * *
+Footer
+* * * * * * * * * * * * * * * * * * * * */
+footer {
+    background: black;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px 0px 5px 0px;
+    margin: 0px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer p {
+    text-align: left;
+    padding-bottom: 15px;
+    padding-right: 53px;
+    color: #3c3737;
+    font-size: 15px;
+}
+
+footer h3 {
+    color: #3c3737;
+    /*text-shadow: white 0px 0px 1px,white 0px 0px 1px,white 0px 0px 1px,
+        white 0px 0px 1px,   white 0px 0px 1px,  white 0px 0px 1px;*/
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+footer a {
+    color: #3c3737;
+    /*text-shadow: white 0px 0px 1px,white 0px 0px 1px,white 0px 0px 1px,
+        white 0px 0px 1px,   white 0px 0px 1px,  white 0px 0px 1px;*/
+    font-size: 14px;
+    line-height: 2em;
+}
+
+footer .social-media {
+    margin-right: 14px;
+
+}
+.copyright-container {
+        color: #3c3737;
+        padding: 0px;
+}
+
+/*Mobile Menu Section*/
+.menu {
+    position: fixed;
+    width: 200px;
+    height: 35vh;
+    background: black;
+    color: #d6c9c9;
+    transition: 0.5s;
+    border: 1px solid black;
+}
+#mobile-menu {
+    display:inline-block;
+}
+
+#mobile-menu ul {
+    display: inline-block;
+}
+
+#mobile-menu a {
+    padding-left: 18px;
+}
+
+.open {
+    left: -5px;
+}
+
+.close {
+    left: -200px;
+}
+
+/*
+Styling for About Site
+*/
+.about {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("../images/carlos-muza-laptop.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-about {
+
+    height: 100px;
+    padding: 0px;
+    color: #d6c9c9;
+}
+
+.hero-about h1 {
+    margin: 0px;
+    padding-top: 75px;
+}
+
+.about-banner {
+    display: inline-block;
+    height: 400px;
+    padding: 25px;
+}
+
+.about-intro, .quick-facts, .closing p{
+  color: #d6c9c9;
+  letter-spacing: 3px;
+}
+.about-intro {
+    height: fit-content;
+    display: block;
+}
+
+.about h2 {
+  color: #d6c9c9;
+}
+
+.quick-facts {
+  height: 300px;
+}
+
+.closing {
+  margin-bottom: 35px;
+  height: 200px;
+}
+
+.staff-pic-container {
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+.staff-pic img {
+    width: 100%;
+    margin-left: 10px;
+}
+
+/*
+Styling for Services Site
+*/
+
+.services{
+
+background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("../images/carl-heyerdahl-do-more.jpg");
+background-position: 80% 60%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.banner-services {
+    height: 50px;
+    width: 200px;
+}
+
+.services-offered {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    text-align:center;
+
+}
+
+.box-of-services {
+    display: inline-block;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 25px;
+    margin-top: 25px;
+}
+
+.inside {
+
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(""../images/carl-heyerdahl-do-more.jpg"");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:inline-block;
+    color: #d6c9c9;
+    letter-spacing: 2px;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #d6c9c9;
+}
+
+.inside h3 {
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 22px;
+}
+
+.inside li {
+    list-style: disc;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 20px;
+}
+
+/*****************************************
+Contact Page
+*******************************************/
+
+.row h1 {
+  color: #d6c9c9;
+  text-shadow: black 0px 0px 3px,black 0px 0px 1px,black 0px 0px 1px,
+      black 0px 0px 1px,black 0px 0px 1px,black 0px 0px 1px;
+}
+
+.contact-intro {
+  height: 125px;
+  margin: 0;
+  width: 800px;
+}
+
+.contact-intro p {
+  font-size: 20px;
+  margin: 0px;
+}
+
+
+.contact-intro p, h3 {
+  color: #d6c9c9;
+  text-shadow: black 0px 0px 3px,black 0px 0px 1px,black 0px 0px 1px,
+      black 0px 0px 1px,black 0px 0px 1px,black 0px 0px 1px;
+}
+
+.contact-banner h2 {
+  color: #d6c9c9;
+  text-shadow: black 0px 0px 3px,black 0px 0px 1px,black 0px 0px 1px,
+      black 0px 0px 1px,black 0px 0px 1px,black 0px 0px 1px;
+}
+
+.contact-page {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/matam-jaswanth-phone.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.signup-form {
+  display: inline-block;
+  background: transparent;
+  color: #d6c9c9;
+  text-shadow: black 0px 0px 3px,black 0px 0px 1px,black 0px 0px 1px,
+      black 0px 0px 1px,black 0px 0px 1px,black 0px 0px 1px;
+  letter-spacing: 2px;
+}
+
+.signup-form label {
+    margin-right: 20px;
+    font-weight: bold;
+    display: block;
+}
+.signup-form input, .signup-form textarea {
+    padding: 20px;
+    background: #222;
+    border: none;
+    color: #d6c9c9;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid #d6c9c9;
+    font-size: 15px;
+    width: 250px;
+}
+
+.input-container {
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+.signup-form textarea {
+    width: 500px;
+    height: 300px;
+    /*if want to disable the user ability to make box larger:*/
+    resize: none;
+    margin-bottom: 10px
+}
+.input-comments input {
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+/*****************************************
+Media Queries
+******************************************/
+@media (max-width: 720px) {
+
+
+  header {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+    .hero h1 {
+        font-size: 45px;
+        }
+    .hero p {
+            font-size: 30px;
+        }
+    .hero {
+        height: 450px;
+        padding: 0px;
+    }
+    main {
+        min-height: 500px;
+        padding: 10px 0;
+        text-align: center;
+        padding-bottom: 20px;
+        background: #f7ecec;
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../images/branstorming.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    .marketing-commerce, .project-management, .technical-writing, .business-relations p {
+
+        margin-top: 0;
+        padding-top: 25px;
+        text-shadow: black 0px 0px 3px,black 0px 0px 1px,black 0px 0px 1px,
+            black 0px 0px 1px,black 0px 0px 1px,black 0px 0px 1px;
+        font-size: 20px;
+        color: #d6c9c9;
+    }
+
+    .banner {
+      width: 100%;
+      height: 90px;
+      display: table;
+      padding: 0px;
+      background: #333;
+      margin:0;
+
+    }
+
+    .banner p {
+      margin: 0px;
+      display: table-cell;
+      vertical-align: middle;
+      padding: 0 10px;
+      font-size: 18px;
+    }
+
+    footer p {
+        padding-right: 269px;
+    }
+
+    .services-offered {
+        height: 650px;
+        margin: 10px auto;
+        position: relative;
+        text-align:center;
+}
+
+    .box-of-services {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 0px;
+
+    }
+
+    .inside {
+        display:inline-block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 90px;
+        width: 100%;
+        border: 1px solid #d6c9c9;
+
+    }
+
+    .inside h3 {
+        margin: 0px;
+        letter-spacing: 2px;
+        text-align: left;
+        padding-left: 22px;
+    }
+
+    .inside li {
+        list-style: disc;
+        margin-left: 40px;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .inside ul {
+        margin: 0px;
+    }
+
+    .signup-form textarea {
+        width: 300px;
+        height: 300px;
+        /*if want to disable the user ability to make box larger:*/
+        resize: none;
+        margin-bottom: 10px
+    }
+
+}
+
+
+@media (max-width: 440px) {
+
+    .hero {
+        height: 500px;
+    }
+
+    .box-1, .box-2, .box-3, .box-4 {
+
+        width: 300px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .services-offered {
+        height: 570px;
+        margin-bottom: 67px;
+        position: relative;
+        text-align:center;
+    }
+
+    .box-of-services {
+        display: inline-block;
+        text-align: center;
+        height:700px;
+        padding-left: 0px;
+        vertical-align: middle;
+        margin-top: 0px;
+    }
+
+    .inside {
+        display:inline-block;
+        height: 75px;
+        width: 100%;
+    }
+
+    .inside h3 {
+        margin: 0px;
+        letter-spacing: 2px;
+        text-align: left;
+        padding-left: 22px;
+    }
+
+    .inside li {
+        list-style: disc;
+        margin-left: 40px;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .inside ul {
+        margin: 0px;
+        font-size: 14px;
+    }
+}
